@@ -1,0 +1,30 @@
+:root {
+    
+    /* colors */
+    --purple: #7276e1;
+    --orange: hsl(14, 88%, 65%);
+    --blue-dark: hsl(238, 29%, 16%);
+    --grey-light: hsl(237, 12%, 33%);
+    --blue-mid: hsl(240, 6%, 50%);
+
+    /* fonts */
+    --font: 'Barlow Semi Condensed', sans-serif;
+    --base-font-size: 1.3rem;
+
+}
+
+.attribution { 
+    color: #fff;
+    font-size: 11px; 
+    margin-top: 25px;
+    text-align: center;  
+}
+
+.attribution a { color:#fff; }
+
+* { box-sizing: border-box; }
+
+html {
+    font-family: var(--font);
+    font-size: 10px;
+}
