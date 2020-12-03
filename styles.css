@@ -68,6 +68,10 @@ body {
     margin: 0;
 }
 
+.testimonial__photo {
+    border-radius: 50%;
+}
+
 main {
     padding: 0 5%;
 }
