@@ -1,11 +1,7 @@
 :root {
     
     /* colors */
-    --purple: #7276e1;
-    --orange: hsl(14, 88%, 65%);
-    --blue-dark: hsl(238, 29%, 16%);
-    --grey-light: hsl(237, 12%, 33%);
-    --blue-mid: hsl(240, 6%, 50%);
+    --blue-gray: hsl(210, 46%, 95%);
 
     /* fonts */
     --font: 'Barlow Semi Condensed', sans-serif;
@@ -27,4 +23,20 @@
 html {
     font-family: var(--font);
     font-size: 10px;
+}
+
+body { 
+    background-color: var(--blue-gray)
+}
+
+.testimonial { 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+    margin: 30px 0;
+    padding: 30px;
+}
+
+main {
+    padding: 0 5%;
 }
