@@ -44,6 +44,9 @@ body {
 
 .testimonial--purple {
     background-color: var(--purple);
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-position: top 0 right 30px;
+    background-repeat: no-repeat;
 }
 
 .testimonial--blue-grey {
@@ -56,20 +59,59 @@ body {
 
 .testimonial__text {
     color: var(--dark-blue-gray);
-    font-size: 1.7rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 0;
 }
 
 .testimonial__text--white {
     color: var(--white);
-    font-size: 1.7rem;
 }
 
 .testimonial__quote {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
     margin: 0;
 }
 
 .testimonial__photo {
     border-radius: 50%;
+    max-width: 30px;
+}
+
+.testimonial__photo--border--purple {
+    border: 2px solid #a775f2;
+}
+
+.testimonial__header {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start
+}
+
+.testimonial__header__text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.testimonial__header__text--white {
+    color: var(--white);
+}
+
+.testimonial__header__text__verified {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.testimonial__header__text__verified--white {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.testimonial__quote--purple {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 main {
