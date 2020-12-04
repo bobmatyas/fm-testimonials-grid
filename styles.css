@@ -14,13 +14,14 @@
 }
 
 .attribution { 
-    color: #fff;
+    color: #000;
     font-size: 11px; 
+    margin-bottom: 25px;
     margin-top: 25px;
     text-align: center;  
 }
 
-.attribution a { color:#fff; }
+.attribution a { color:#000; }
 
 * { box-sizing: border-box; }
 
